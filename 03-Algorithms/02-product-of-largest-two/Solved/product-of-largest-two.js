@@ -15,5 +15,9 @@ var productOfLargestTwo = function (arr) {
     }
   }
 
+  
+  console.log (largest * secondLargest); 
   return largest * secondLargest;
 };
+
+productOfLargestTwo([40, 10, 15, 2, 4, 8]);
